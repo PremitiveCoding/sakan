@@ -49,7 +49,7 @@ export default function Slider() {
           pagination={{ type: "progressbar" }}
           effect="fade"
           modules={[EffectFade]}
-          autoplay={{ delay: 3000 }}
+          autoplay={{ delay: 1000 }}
         >
           {listings.map(({ data, id }) => (
             <SwiperSlide
